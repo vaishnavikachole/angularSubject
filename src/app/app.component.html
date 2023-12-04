@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row" style="padding: 50px;">
+    <div class="col-md-6">
+      <div class="card" style="border-radius: 2px solid green;" style="margin-bottom: 20px;">
+         <div class="card-body">
+            <h2 class="card-title text-center">{{userName}}</h2>
+            <label>Name: </label>
+            <input type="text" class="form-control" #uname>
+            <br>
+          <a href="#" class="btn btn-primary" style="margin-left: 100px;" (click)="updateUserName(uname)">Update</a>
+        </div>
+      </div>
+    </div>
+      <br>
+      <div class="col-md-6">
+      <app-component2></app-component2>
+      </div>
+      <br>
+      <div class="col-md-6">
+      <app-component3></app-component3>
+      </div>
+      <br>
+      <div class="col-md-6">
+      <app-component4></app-component4>
+      </div>
+      <br>
+
+</div>
+</div>
+<!-- <router-outlet></router-outlet> -->
